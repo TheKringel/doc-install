@@ -95,7 +95,8 @@ Here is a configuration example for ``Nginx`` web server using ``php-fpm``.
 IIS configuration
 ^^^^^^^^^^^^^^^^^
 
-Here is a configuration example for ``Microsoft IIS``.
+Here is a configuration example for ``Microsoft IIS``. Put the configuration into ``web.config`` file and save it to ``/glpi/public`` folder.
+You can also download and install the `URL Rewrite <https://iis-umbraco-dr.azurewebsites.net/downloads/microsoft/url-rewrite>`_ component to manage rules in the IIS Manager Console.
 
 .. code-block:: xml
 
